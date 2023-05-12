@@ -27,12 +27,12 @@ const AddItem = ({ getNewItem }) => {
           name="name"
           id="name"
           ref={name}
-          placeholder="name"
+          placeholder="Enter name"
         />
       </div>
       <div>
         <label htmlFor="age">age: </label>
-        <input type="number" name="age" id="age" ref={age} placeholder="age" />
+        <input type="number" name="age" id="age" ref={age} placeholder="Enter age" />
       </div>
       <div>
         <label htmlFor="image">image: </label>
@@ -41,7 +41,7 @@ const AddItem = ({ getNewItem }) => {
           name="image"
           id="image"
           ref={image}
-          placeholder="age url"
+          placeholder="Image url"
         />
       </div>
       <button type="button" onClick={addItemHandler}>
